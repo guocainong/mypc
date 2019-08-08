@@ -1,0 +1,174 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.box .header {
+  position: relative;
+}
+.box .header img {
+  width: 100%;
+  display: block;
+}
+.box .header p {
+  position: absolute;
+  color: #fff;
+  font-size: 30px;
+  right: 10px;
+  display: none;
+}
+.box .nav {
+  height: 50px;
+  line-height: 50px;
+}
+.box .nav ul {
+  display: flex;
+  justify-content: center;
+}
+.box .nav ul li {
+  padding: 0 38px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.box .nav ul li:hover {
+  background: #015ba2;
+  color: #fff;
+}
+.box .swiper-container {
+  width: 100%;
+}
+.box .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.box .phone {
+  margin-bottom: 10px;
+  display: none;
+}
+.box .phone .phone-top {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background: #FFA500;
+  width: 300px;
+  border-radius: 100px;
+  font-size: 18px;
+  padding: 8px 30px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+.box .phone .phone-top .iconfont {
+  font-size: 30px;
+  align-self: center;
+}
+.box .phone .phone-top p {
+  align-self: center;
+}
+.box .phone .phone-top1 {
+  background: #1793F5;
+}
+.box .jihua {
+  background: #F9F9F9;
+}
+.box .jihua .jihua-top {
+  padding-top: 35px;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background: #F9F9F9;
+}
+.box .jihua .jihua-top p {
+  width: 400px;
+  height: 2px;
+  background: #015ba2;
+}
+.box .jihua .jihua-top h3 {
+  font-size: 28px;
+  padding: 0 50px;
+  color: #015ba2;
+  font-weight: 20;
+}
+.box .jihua h4 {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi {
+  width: 95%;
+  height: 200px;
+  background: #F9F9F9;
+  margin: 20px 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi1 {
+  display: flex;
+  justify-content: space-between;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi1 h3 {
+  font-size: 22px;
+  color: #015ba2;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi1 span {
+  font-size: 18px;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi3 {
+  display: flex;
+  justify-content: space-between;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi3 .qi3-left span {
+  font-size: 18px;
+  color: #FF1C1C;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi3 .qi3-left p {
+  width: 150px;
+  height: 40px;
+  background: #FF1C1C;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 40px;
+}
+.box .kaiban .swiper-container .swiper-wrapper .swiper-slide .qi .qi3 img {
+  width: 120px;
+  height: 110px;
+}
+@media screen and (max-width: 800px) {
+  .box .header .sidebar p {
+    display: block;
+  }
+  .box .nav {
+    position: relative;
+    height: 0;
+  }
+  .box .nav .uls {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    z-index: 2;
+    display: none;
+  }
+  .box .nav .uls li {
+    height: 20px;
+    padding: 5px 10px;
+    background: #1f1e1e;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-bottom: 1px solid #979494;
+  }
+  .box .phone {
+    display: block;
+  }
+  .box .jihua .jihua-top p {
+    width: 50px;
+  }
+}
